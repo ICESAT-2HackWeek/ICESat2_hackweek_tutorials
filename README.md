@@ -50,7 +50,6 @@ These tutorials were deployed on a JupyterHub instance running in the cloud.  Fo
 
 ### Preliminary material
 *Anthony Arendt*  
-Background material, preliminary tutorials 
 https://icesat-2hackweek.github.io/preliminary/
 
 ### JupyterHub Environment for Icesat-2 Hackweek
@@ -58,7 +57,7 @@ https://icesat-2hackweek.github.io/preliminary/
 https://github.com/ICESAT-2HackWeek/jupyterhub-info.
 
 ## Citation and License
-Most of this material was prepared by volunteers, all of whom have day jobs as scientists, engineers, and educators.  While this material is not necessarily appropriate for a peer-reviewed journal article publication, we are releasing with a digital object identifier (DOI).  If you find these tutorials useful, or you adapt some of the underlying source code, we request that you cite as:
+Most of the tutorial content is original material prepared by volunteer instructors, all of whom have day jobs as scientists, engineers, and educators.  While this material is not necessarily appropriate for a peer-reviewed journal article publication, we are releasing with a digital object identifier (DOI).  If you find these tutorials useful, or you adapt some of the underlying source code, we request that you cite as:
 
 *[insert citation information after Zenodo release]*
 
