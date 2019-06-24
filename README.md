@@ -6,53 +6,53 @@ The [ICESat-2 Cryospheric Science Hackweek](https://icesat-2hackweek.github.io/)
 
 The tutorials were largely developed by volunteer instructors.  Each tutorial was prepared and distributed as a separate repository under the [ICESat-2 Hackweek Github organization](https://github.com/ICESAT-2HackWeek).  At the beginning of each tutorial, participants cloned the repository and interactively worked through the material with the instructor.  
 
-This ICESat2_hackweek_tutorials repository was created to centralize the final content from all tutorial repositories and to provide a snapshot "release" of the material presented during the hackweek with a DOI for distribution to the larger community.
+This ICESat2_hackweek_tutorials repository was created to centralize the final content from individual tutorial repositories and to provide a snapshot "release" of the material presented during the hackweek with a DOI for distribution to the larger community.  Some of these tutorials may continue to evolve in individual repositories (see links below).
 
 ## Tutorials 
-### Overview of the ICESat-2 mission (slides)
+### 01. Overview of the ICESat-2 mission (slides)
 *Tom Neumann, Ron Kwok, Ben Smith*  
 https://github.com/ICESAT-2HackWeek/intro_ICESat2
 
-### Introduction to Open Science and Reproducible Research
+### 02. Introduction to Open Science and Reproducible Research
 *Fernando Perez*  
 https://github.com/ICESAT-2HackWeek/intro-jupyter-git
 
-### Access and Customize ICESat-2 Data via NSIDC API
+### 03. Access and Customize ICESat-2 Data via NSIDC API
 *Amy Steiker Bruce Wallin*  
 https://github.com/ICESAT-2HackWeek/data-access
 
-### Intro to HDF5 and ICESat-2 Data Files
+### 04. Intro to HDF5 and ICESat-2 Data Files
 *Fernando Paolo*  
 https://github.com/ICESAT-2HackWeek/intro-hdf5
 
-### Clouds and ICESat-2 Data Filtering
+### 05. Clouds and ICESat-2 Data Filtering
 *Ben Smith*  
 https://github.com/ICESAT-2HackWeek/Clouds_and_data_filtering
 
-### Gridding and Filtering of ICESat/ICESat-2 Elevation Change Data
+### 06. Gridding and Filtering of ICESat/ICESat-2 Elevation Change Data
 *Johan Nilsson*   
 https://github.com/ICESAT-2HackWeek/gridding
 
-### ICESat-2 for Sea Ice
+### 07. ICESat-2 for Sea Ice
 *Alek Petty*  
 https://github.com/ICESAT-2HackWeek/sea-ice-tutorials
 
-### Geospatial Data Exploration, Analysis, and Visualization
+### 08. Geospatial Data Exploration, Analysis, and Visualization
 *David Shean*  
 https://github.com/ICESAT-2HackWeek/geospatial-analysis
 
-### Correcting ICESat-2 data and related applications
+### 09. Correcting ICESat-2 data and related applications
 *Maya Becker, Susheel Adusumilli*  
 https://github.com/ICESAT-2HackWeek/data-correction
 
 ## How to reproduce and run
 These tutorials were deployed on a JupyterHub instance running in the cloud.  For information how to reproduce on your own system, see the following.
 
-### Preliminary material
+### 00. Preliminary material
 *Anthony Arendt*  
 https://icesat-2hackweek.github.io/preliminary/
 
-### JupyterHub Environment for Icesat-2 Hackweek
+### 10. JupyterHub Environment for Icesat-2 Hackweek
 *Scott Henderson*  
 https://github.com/ICESAT-2HackWeek/jupyterhub-info.
 
