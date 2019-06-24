@@ -18,7 +18,7 @@ https://github.com/ICESAT-2HackWeek/intro_ICESat2
 https://github.com/ICESAT-2HackWeek/intro-jupyter-git
 
 ### 03. Access and Customize ICESat-2 Data via NSIDC API
-*Amy Steiker Bruce Wallin*  
+*Amy Steiker, Bruce Wallin*  
 https://github.com/ICESAT-2HackWeek/data-access
 
 ### 04. Intro to HDF5 and ICESat-2 Data Files
