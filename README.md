@@ -45,6 +45,10 @@ https://github.com/ICESAT-2HackWeek/geospatial-analysis
 *Maya Becker, Susheel Adusumilli*  
 https://github.com/ICESAT-2HackWeek/data-correction
 
+### 10. Numerical Modeling
+*Daniel Shapero*  
+https://gitlab.com/danshapero/icesat-2019-06-20
+
 ## How to reproduce and run
 These tutorials were deployed on a JupyterHub instance running in the cloud.  For information how to reproduce on your own system, see the following.
 
@@ -52,7 +56,7 @@ These tutorials were deployed on a JupyterHub instance running in the cloud.  Fo
 *Anthony Arendt*  
 https://icesat-2hackweek.github.io/preliminary/
 
-### 10. JupyterHub Environment for Icesat-2 Hackweek
+### 11. JupyterHub Environment for Icesat-2 Hackweek
 *Scott Henderson*  
 https://github.com/ICESAT-2HackWeek/jupyterhub-info.
 
