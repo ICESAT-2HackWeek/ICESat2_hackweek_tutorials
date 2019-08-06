@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/192627215.svg)](https://zenodo.org/badge/latestdoi/192627215)
+
 # ICESat-2 Hackweek Tutorials
 Combined repository for final tutorials presented during the ICESat-2 HackWeek at the Univeristy of Washington on June 17-21, 2019
 
@@ -27,7 +29,7 @@ https://github.com/ICESAT-2HackWeek/intro-jupyter-git
 *Amy Steiker, Bruce Wallin*  
 https://github.com/ICESAT-2HackWeek/data-access
 
-### 04. Intro to HDF5 and ICESat-2 Data Files
+### 04. Intro to HDF5 and Reduction of ICESat-2 Data Files
 *Fernando Paolo*  
 https://github.com/ICESAT-2HackWeek/intro-hdf5
 
@@ -67,8 +69,11 @@ https://icesat-2hackweek.github.io/preliminary/
 https://github.com/ICESAT-2HackWeek/jupyterhub-info.
 
 ## Citation and License
-Most of the tutorial content is original material prepared by volunteer instructors, all of whom have day jobs as scientists, engineers, and educators.  While this material is not necessarily appropriate for a peer-reviewed journal article publication, we are releasing with a digital object identifier (DOI).  If you find these tutorials useful, or you adapt some of the underlying source code, we request that you cite as:
+Most of the tutorial content is original material prepared by a team of volunteer instructors, all of whom have day jobs as scientists, engineers, and educators.  While this material is not necessarily appropriate for a peer-reviewed journal article publication, we released the tutorial material with a digital object identifier (DOI).  If you find these tutorials useful, or you adapt some of the underlying source code, we request that you cite as:
 
-*[insert citation information after Zenodo release]*
+>Anthony Arendt, David Shean, Ben Smith, Amy Steiker, Alek Petty, Maya Becker, Susheel Adusumilli, Scott Henderson, Fernando Perez, Fernando Paolo, Johan Nilsson, Daniel Shapero, Bruce Wallin. (2019). ICESAT-2HackWeek/ICESat2_hackweek_tutorials: Initial release for Zenodo DOI prep (Version 0.1). Zenodo. http://doi.org/10.5281/zenodo.3360994
+
+Please click on the Zenodo badge for latest citation information and export options:
+[![DOI](https://zenodo.org/badge/192627215.svg)](https://zenodo.org/badge/latestdoi/192627215)
 
 The content of this project is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](LICENSE.md).
