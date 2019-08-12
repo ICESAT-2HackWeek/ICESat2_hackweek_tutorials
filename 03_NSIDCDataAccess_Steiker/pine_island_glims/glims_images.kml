@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="layer" id="layer">
+	<SimpleField name="glac_id" type="string"></SimpleField>
+	<SimpleField name="anlys_id" type="int"></SimpleField>
+	<SimpleField name="inst_sname" type="string"></SimpleField>
+	<SimpleField name="orig_id" type="string"></SimpleField>
+	<SimpleField name="acq_time" type="string"></SimpleField>
+	<SimpleField name="est_loc" type="int"></SimpleField>
+</Schema>
+<Folder><name>layer</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS78_903075W097_125016</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-100.0079806,-78.1249889,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS74_653694W100_304847</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-102.264775,-73.8562111,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS75_988533W101_309933</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-103.3924972,-75.1788833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS77_321861W102_528808</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-104.7435639,-76.4985583,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS80_260616W081_869897</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-86.185925,-79.65,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS78_903075W082_874983</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-86.6335389,-78.2843917,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS77_545886W083_659808</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-86.9872111,-76.9214222,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS76_190200W084_289405</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-87.2736889,-75.5616167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS74_836886W084_805572</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-87.5104472,-74.2054361,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS74_898466W090_000000</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-92.4895528,-74.2054361,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS76_258102W090_000000</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-92.7263111,-75.5616167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS77_621488W090_000000</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-93.0127889,-76.9214222,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS78_988261W090_000000</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-93.3664611,-78.2843917,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS80_358058W090_000000</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-93.814075,-79.65,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS74_836886W095_194427</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-97.4314083,-74.0881333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS76_190200W095_710594</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-98.1301028,-75.432875,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glac_id">G263560E76894S</SimpleData>
+		<SimpleData name="anlys_id">528486</SimpleData>
+		<SimpleData name="inst_sname">Landsat7</SimpleData>
+		<SimpleData name="orig_id">LMS77_545886W096_340191</SimpleData>
+		<SimpleData name="acq_time">2001-10-01 00:00:00</SimpleData>
+		<SimpleData name="est_loc">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-98.9726278,-76.7789139,0</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
