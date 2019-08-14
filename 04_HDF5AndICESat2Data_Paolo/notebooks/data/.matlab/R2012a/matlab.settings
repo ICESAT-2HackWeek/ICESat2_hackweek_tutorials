@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings name="matlab" xmlns="urn:mathworks.matlab.settings" xsi:schemaLocation="urn:mathworks.matlab.settings settings.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <key name="DeleteFilesPermanently">
+        <bool>
+            <value>1</value>
+        </bool>
+    </key>
+    <settings name="desktop">
+        <settings name="commandwindow">
+        </settings>
+        <settings name="currentfolder">
+            <settings name="autorefresh">
+            </settings>
+            <settings name="lastfolder">
+            </settings>
+            <settings name="lastsearch">
+            </settings>
+            <settings name="pathaffordance">
+            </settings>
+        </settings>
+    </settings>
+</settings>

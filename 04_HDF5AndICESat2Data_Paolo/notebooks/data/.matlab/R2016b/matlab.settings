@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings name="matlab" xmlns="urn:mathworks.matlab.settings" xsi:schemaLocation="urn:mathworks.matlab.settings settings.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <key name="DeleteFilesPermanently">
+        <bool>
+        </bool>
+    </key>
+    <key name="G11nLanguagePref">
+        <string>
+        </string>
+    </key>
+    <key name="UserPath">
+        <string>
+        </string>
+    </key>
+    <settings name="addons">
+        <key name="AddLegacyAddOnFolders">
+            <bool>
+            </bool>
+        </key>
+        <key name="AdditionalInstallationFolders">
+            <string minArraySize="0" maxArraySize="100">
+            </string>
+        </key>
+        <key name="Enabled">
+            <bool>
+            </bool>
+        </key>
+        <key name="ImportLegacyAddOnsAtStartup">
+            <bool>
+            </bool>
+        </key>
+        <key name="InstallationFolder">
+            <string>
+            </string>
+        </key>
+        <key name="LastFolderPath">
+            <string>
+            </string>
+        </key>
+        <settings name="explorer">
+            <key name="Position">
+                <double minArraySize="4" maxArraySize="4" undef="true">
+                </double>
+            </key>
+        </settings>
+        <settings name="manager">
+            <key name="Position">
+                <double minArraySize="4" maxArraySize="4" undef="true">
+                </double>
+            </key>
+        </settings>
+    </settings>
+    <settings name="appdesigner">
+        <key name="EnableMlappSupport">
+            <bool>
+            </bool>
+        </key>
+    </settings>
+    <settings name="apps" visible="true">
+        <key name="AppsInstallFolder" visible="true">
+            <string>
+            </string>
+        </key>
+    </settings>
+    <settings name="class">
+        <key name="UseFullNameInDisplayHeader">
+            <bool>
+            </bool>
+        </key>
+    </settings>
+    <settings name="commandwindow">
+        <key name="Corrections">
+            <bool>
+            </bool>
+        </key>
+        <key name="EightyColumns">
+            <bool>
+            </bool>
+        </key>
+        <key name="NumericDisplay">
+            <string>
+            </string>
+        </key>
+        <key name="NumericFormat">
+            <string>
+            </string>
+        </key>
+        <key name="WrapLines">
+            <bool>
+            </bool>
+        </key>
+    </settings>
+    <settings name="confirmationdialogs">
+        <key name="CommandHistoryDeleteConfirm">
+            <bool>
+            </bool>
+        </key>
+        <key name="CommandWindowClearConfirmation">
+            <bool>
+            </bool>
+        </key>
+        <key name="MatlabExitConfirm">
+            <bool>
+            </bool>
+        </key>
+        <key name="WorkspaceBrowserClearConfirmation">
+            <bool>
+            </bool>
+        </key>
+    </settings>
+    <settings name="datetime">
+        <key name="DefaultDateFormat" visible="true">
+            <validationfunc type='C' packagename='datetime' functionname='validateDatetimeFormat'/>
+            <string>
+            </string>
+        </key>
+        <key name="DefaultFormat" visible="true">
+            <validationfunc type='C' packagename='datetime' functionname='validateDatetimeFormat'/>
+            <string>
+            </string>
+        </key>
+        <key name="DisplayLocale" visible="true">
+            <validationfunc type='C' packagename='datetime' functionname='validateDatetimeLocale'/>
+            <string>
+            </string>
+        </key>
+        <key name="ValidationWarning" visible="true">
+            <string>
+            </string>
+        </key>
+    </settings>
+    <settings name="ddux">
+    </settings>
+    <settings name="desktop">
+        <key name="BlockEditorGraphicalDebugging">
+            <bool>
+            </bool>
+        </key>
+        <key name="EnableLiveEditorFloatingPalette">
+            <bool>
+            </bool>
+        </key>
+        <key name="EnableMlxSupport">
+            <bool>
+            </bool>
+        </key>
+        <key name="EnableRichScriptSupport">
+            <bool>
+            </bool>
+        </key>
+        <key name="HighDPISupport">
+            <bool>
+            </bool>
+        </key>
+        <settings name="arrayeditor">
+            <key name="CodeGenEnabled">
+                <bool>
+                </bool>
+            </key>
+        </settings>
+        <settings name="commandwindow">
+            <key name="ErrorColor">
+                <int32 minArraySize="3" maxArraySize="3">
+                </int32>
+            </key>
+            <key name="ShowTypoSuggestions">
+                <bool>
+                </bool>
+            </key>
+            <key name="WarningColor">
+                <int32 minArraySize="3" maxArraySize="3">
+                </int32>
+            </key>
+        </settings>
+        <settings name="currentfolder">
+            <key name="CommitDialogFeatureEnabled">
+                <bool>
+                </bool>
+            </key>
+            <key name="CurrentFolderSize">
+                <int32>
+                </int32>
+            </key>
+            <key name="History">
+                <string minArraySize="0" maxArraySize="500">
+                </string>
+            </key>
+            <key name="HistorySize">
+                <int32>
+                </int32>
+            </key>
+            <key name="ShowHiddenFiles">
+                <bool>
+                </bool>
+            </key>
+            <settings name="autorefresh">
+                <key name="Enabled">
+                    <bool>
+                    </bool>
+                </key>
+                <key name="Interval">
+                    <int32>
+                    </int32>
+                </key>
+            </settings>
+            <settings name="lastfolder">
+                <key name="ClosedGroups">
+                    <string minArraySize="0" maxArraySize="100000">
+                    </string>
+                </key>
+                <key name="ColumnOrder">
+                    <string minArraySize="0" maxArraySize="100">
+                    </string>
+                </key>
+                <key name="ColumnSizes">
+                    <string minArraySize="0" maxArraySize="100000">
+                    </string>
+                </key>
+                <key name="GroupColumn">
+                    <string>
+                    </string>
+                </key>
+                <key name="GroupMode">
+                    <string>
+                    </string>
+                </key>
+                <key name="OpenGroups">
+                    <string minArraySize="0" maxArraySize="100000">
+                    </string>
+                </key>
+                <key name="SortColumn">
+                    <string>
+                    </string>
+                </key>
+                <key name="SortDescending">
+                    <bool>
+                    </bool>
+                </key>
+                <key name="VisibleColumns">
+                    <string minArraySize="0" maxArraySize="100">
+                    </string>
+                </key>
+            </settings>
+            <settings name="lastsearch">
+                <key name="ClosedGroups">
+                    <string minArraySize="0" maxArraySize="10000">
+                    </string>
+                </key>
+                <key name="ColumnOrder">
+                    <string minArraySize="0" maxArraySize="100">
+                    </string>
+                </key>
+                <key name="ColumnSizes">
+                    <string minArraySize="0" maxArraySize="100000">
+                    </string>
+                </key>
+                <key name="GroupColumn">
+                    <string>
+                    </string>
+                </key>
+                <key name="GroupMode">
+                    <string>
+                    </string>
+                </key>
+                <key name="OpenGroups">
+                    <string minArraySize="0" maxArraySize="100000">
+                    </string>
+                </key>
+                <key name="SortColumn">
+                    <string>
+                    </string>
+                </key>
+                <key name="SortDescending">
+                    <bool>
+                    </bool>
+                </key>
+                <key name="VisibleColumns">
+                    <string minArraySize="0" maxArraySize="100">
+                    </string>
+                </key>
+            </settings>
+            <settings name="pathaffordance">
+                <key name="Enabled">
+                    <bool>
+                    </bool>
+                </key>
+                <key name="Transparency">
+                    <int32>
+                    </int32>
+                </key>
+            </settings>
+        </settings>
+        <settings name="help" visible="true">
+            <key name="DocLanguage" visible="true">
+                <string>
+                </string>
+            </key>
+            <key name="SingleSource" visible="true">
+                <bool>
+                </bool>
+            </key>
+        </settings>
+        <settings name="workspace">
+            <key name="ArraySizeLimit" visible="true">
+                <uint8>
+                </uint8>
+            </key>
+            <key name="ArraySizeLimitEnabled" visible="true">
+                <bool>
+                </bool>
+            </key>
+            <settings name="savevariablestoscript" visible="true">
+                <key name="ArrayDimensionsFor2Dslice" visible="true">
+                    <double minArraySize="2" maxArraySize="2">
+                    </double>
+                </key>
+                <key name="MaximumArraySize" visible="true">
+                    <double>
+                    </double>
+                </key>
+                <key name="MaximumNestingLevel" visible="true">
+                    <double>
+                    </double>
+                </key>
+                <key name="MaximumTextWidth" visible="true">
+                    <double>
+                    </double>
+                </key>
+                <key name="Using2Dslice" visible="true">
+                    <bool>
+                    </bool>
+                </key>
+            </settings>
+        </settings>
+    </settings>
+    <settings name="errorrecovery" visible="true">
+        <settings name="registry" visible="true">
+            <key name="UseWebService" visible="true">
+                <bool>
+                </bool>
+            </key>
+        </settings>
+    </settings>
+    <settings name="external">
+        <settings name="interfaces">
+            <settings name="python">
+                <key name="Version">
+                    <string minArraySize="4" maxArraySize="4">
+                    </string>
+                </key>
+            </settings>
+        </settings>
+    </settings>
+    <settings name="findfiles">
+        <key name="JsEnabled">
+            <bool>
+            </bool>
+        </key>
+    </settings>
+    <settings name="graphics">
+        <settings name="machine_specific">
+            <settings name="H238739646373956241">
+                <key name="ever_crashed_in_graphics" anytype="true">
+                    <uint32>
+                        <value>0</value>
+                    </uint32>
+                </key>
+                <key name="opengl_preference">
+                    <uint32>
+                        <value>0</value>
+                    </uint32>
+                </key>
+            </settings>
+        </settings>
+    </settings>
+    <settings name="imshow">
+        <key name="AlwaysUseFitMagnification">
+            <bool>
+            </bool>
+        </key>
+        <key name="BorderStyle">
+            <string>
+            </string>
+        </key>
+        <key name="InitialMagnification">
+            <double>
+            </double>
+        </key>
+        <key name="InitialMagnificationStyle">
+            <string>
+            </string>
+        </key>
+        <key name="ShowAxes">
+            <bool>
+            </bool>
+        </key>
+    </settings>
+    <settings name="string">
+        <key name="DefaultTextType">
+            <string>
+            </string>
+        </key>
+    </settings>
+    <settings name="unittest">
+        <key name="DefaultPluginsFcn">
+            <string>
+            </string>
+        </key>
+    </settings>
+    <settings name="variables">
+        <key name="ArrayEditor_CS_Format">
+            <string>
+            </string>
+        </key>
+    </settings>
+    <settings name="videoreader">
+        <key name="UseHardwareAcceleration">
+            <bool>
+            </bool>
+        </key>
+    </settings>
+    <settings name="workingfolder">
+        <key name="CustomFolderPath">
+            <string>
+            </string>
+        </key>
+        <key name="InitialWorkingFolder">
+            <string>
+            </string>
+        </key>
+        <key name="LastFolderPath">
+            <string>
+                <value><![CDATA[/u/devon0/paolofer/code/tmdtoolbox/tmd_toolbox]]></value>
+            </string>
+        </key>
+    </settings>
+</settings>
