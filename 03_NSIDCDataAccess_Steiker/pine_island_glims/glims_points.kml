@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="layer" id="layer">
+	<SimpleField name="glacier_id" type="string"></SimpleField>
+</Schema>
+<Folder><name>layer</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#layer">
+		<SimpleData name="glacier_id">G263560E76894S</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-96.44,-76.894,0</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
