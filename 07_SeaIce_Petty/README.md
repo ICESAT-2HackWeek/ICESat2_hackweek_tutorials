@@ -7,32 +7,51 @@ Earth image illustrating AMSR-E sea ice courtesy of the NASA Scientific Visualiz
 
 ## Setup
 
-This GitHub repository primarily hosts the Jupyter Notebooks needed for the hackweek tutorials. The notebooks should work without any extra steps if you're working in the ICESat-2 Pangeo environment that has been created for this hackweek. Just clone this repository into your Pangeo user account (git clone https://github.com/akpetty/ICESat2_hackweek_tutorials/07_SeaIce_Petty when logged in). To run the notebooks on your local machine instead, a conda environment file (is2seaiceenv_environment.yml) has been provided in this repo for you to generate a Python environment that includes all the revelant libraries you might need:
+This GitHub repository primarily hosts the Jupyter Notebooks needed for the hackweek tutorials. The notebooks should work without any extra steps if you're working in the ICESat-2 Pangeo environment that has been created for this hackweek. Just clone the hackweek repo into your Pangeo user account (git clone https://github.com/akpetty/ICESat2_hackweek_tutorials when logged in). 
+
+To run the notebooks on your local machine, you can also just run git clone to grab everything, then cd into the sea ice subdirectory (cd 07_SeaIce_Petty)
+```
+git clone https://github.com/akpetty/ICESat2_hackweek_tutorials
+cd 07_SeaIce_Petty
+```
+NB If running on your local machine you need to grab/clone the entire repo so you have access to the reader and utils libraries!
+
+A conda environment file (is2seaiceenv_environment.yml) has been provided in this repo for you to generate a Python environment that includes all the revelant libraries you might need:
 ```
 conda env create -f is2seaiceenv_environment.yml
 ```
 
 If this doesn't work you can try generating your own Python 3.7 conda environment that includes the packages we need (sometimes there are issues getting environment files like this working across mac/pc/linux platforms):
 ```
-conda create -n is2env python=3.7 basemap xarray pandas netcdf4 pyproj scipy matplotlib h5py seaborn cartopy
+conda create -n is2env python=3.7 basemap xarray pandas netcdf4 pyproj scipy matplotlib h5py seaborn cartopy s3fs astropy
 ```
 
 The hackweek includes extra tutorials on conda (and miniconda) so see those resources for more information. 
 
-The example data files are being stored on a Pangeo Amazon S3 data server. The notebooks incuded here provide a call you can run to quickly download these files to your Data directory. A gitignore file is included to ignore these hdf5 (.h5) files if you decide to fork this repo and push any local changes. 
+The example data files are being stored on a Pangeo Amazon S3 data server. The notebooks incuded here provide a call you can run to quickly download these files to your Data directory IF YOU'RE RUNNING THIS ON THE PANGEO SERVERS. A gitignore file is included to ignore these hdf5 (.h5) files if you decide to fork this repo and push any local changes. 
 
-If you want to do this outside of the notebooks you can run the following commands from the terminal to get the data you need:
+If you want to grab this data outside ON YOUR LOCAL MACHINE you will need the aws client installed on your machine. For mac this can be done using pip:
 ```
-cp Data
-aws s3 cp s3://pangeo-data-upload-oregon/icesat2/ATL07-01_20181115003141_07240101_001_01.h5 .
-aws s3 cp s3://pangeo-data-upload-oregon/icesat2/ATL03_20181115022655_07250104_001_01.h5 .
+pip install awscli
 ```
-and examples of how to upload  data  to S3:
+
+You can run the following commands from the terminal to get the data you need:
+```
+cd Data
+aws --no-sign-request s3 cp s3://pangeo-data-upload-oregon/icesat2/ATL07-01_20181115003141_07240101_001_01.h5 .
+
+aws --no-sign-request s3 cp s3://pangeo-data-upload-oregon/icesat2/ATL03_20181115022655_07250104_001_01.h5 .
+
+aws --no-sign-request s3 cp s3://pangeo-data-upload-oregon/icesat2/ATL10-01_20181115003141_07240101_001_01.h5 .
 
 ```
-aws s3 cp ATL03_20181115022655_07250104_001_01.h5 s3://pangeo-data-upload-oregon/icesat2/
-aws s3 cp ATL07-01_20181115003141_07240101_001_01.h5 s3://pangeo-data-upload-oregon/icesat2/
+and examples of how to upload data to S3 if you need to for some reason:
+
 ```
+aws --no-sign-requests 3 cp ATL03_20181115022655_07250104_001_01.h5 s3://pangeo-data-upload-oregon/icesat2/
+aws --no-sign-request s3 cp ATL07-01_20181115003141_07240101_001_01.h5 s3://pangeo-data-upload-oregon/icesat2/
+```
+If you're stil struggling to get the data feel free to email me (alek.a.petty@nasa.gov) and I can give you a link.
 
 Good luck!
 
